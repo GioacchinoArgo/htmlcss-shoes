@@ -1,0 +1,59 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: hidden;
+}
+/* Generics */
+body {
+    font-family:'Rubik Mono One', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFFF00;
+}
+
+.h1-green {
+    color: #008000;
+}
+
+img {
+    height: 550px;
+}
+
+/* Utils */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.full-screen {
+    height: 100vh;
+    position: relative;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.yellow {
+    background-color: #FFFF00;
+}
+
+.shoes-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    translate: -50% -50%;
+}
+
